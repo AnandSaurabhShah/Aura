@@ -1,0 +1,10 @@
+{
+  "name": "aura-platform-workspace",
+  "private": true,
+  "scripts": {
+    "frontend:dev": "npm --prefix frontend run dev",
+    "frontend:build": "npm --prefix frontend run build",
+    "frontend:lint": "npm --prefix frontend run lint",
+    "backend:dev": "uvicorn main:app --app-dir backend --reload --port 8000"
+  }
+}
